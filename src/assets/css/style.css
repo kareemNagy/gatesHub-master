@@ -1,0 +1,750 @@
+/* line 5, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font: inherit;
+    font-size: 100%;
+    vertical-align: baseline;
+}
+
+
+/* line 22, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+html {
+    line-height: 1;
+}
+
+
+/* line 24, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+ol,
+ul {
+    list-style: none;
+}
+
+
+/* line 26, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+
+/* line 28, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+caption,
+th,
+td {
+    text-align: left;
+    font-weight: normal;
+    vertical-align: middle;
+}
+
+
+/* line 30, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+q,
+blockquote {
+    quotes: none;
+}
+
+
+/* line 103, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+q:before,
+q:after,
+blockquote:before,
+blockquote:after {
+    content: "";
+    content: none;
+}
+
+
+/* line 32, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+a img {
+    border: none;
+}
+
+
+/* line 116, C:/RailsInstaller/Ruby2.3.3/lib/ruby/gems/2.3.0/gems/compass-core-1.0.3/stylesheets/compass/reset/_utilities.scss */
+
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+main,
+menu,
+nav,
+section,
+summary {
+    display: block;
+}
+
+
+/* line 5, sass/partials/base/_reset.scss */
+
+.ico {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+/* line 10, sass/partials/base/_reset.scss */
+
+.fl {
+    float: left;
+}
+
+
+/* line 14, sass/partials/base/_reset.scss */
+
+.flx {
+    float: right;
+}
+
+@font-face {
+    font-family: 'Futura LT';
+    src: url("../fonts/FuturaLT.eot");
+    src: url("../fonts/FuturaLT.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaLT.woff2") format("woff2"), url("../fonts/FuturaLT.woff") format("woff"), url("../fonts/FuturaLT.ttf") format("truetype"), url("../fonts/FuturaLT.svg#FuturaLT") format("svg");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura LT';
+    src: url("../fonts/FuturaLT-Light.eot");
+    src: url("../fonts/FuturaLT-Light.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaLT-Light.woff2") format("woff2"), url("../fonts/FuturaLT-Light.woff") format("woff"), url("../fonts/FuturaLT-Light.ttf") format("truetype"), url("../fonts/FuturaLT-Light.svg#FuturaLT-Light") format("svg");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Futura LT';
+    src: url("../fonts/FuturaLT-Bold.eot");
+    src: url("../fonts/FuturaLT-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/FuturaLT-Bold.woff2") format("woff2"), url("../fonts/FuturaLT-Bold.woff") format("woff"), url("../fonts/FuturaLT-Bold.ttf") format("truetype"), url("../fonts/FuturaLT-Bold.svg#FuturaLT-Bold") format("svg");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+
+/* line 41, sass/partials/_fonts.scss */
+
+body {
+    font-family: 'Futura LT';
+    font-size: 14px;
+    line-height: 1;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+/* line 1, sass/partials/_desktop.scss */
+
+a {
+    text-decoration: none;
+}
+
+
+/* line 3, sass/partials/_desktop.scss */
+
+a:hover {
+    text-decoration: none;
+}
+
+
+/***** Site Header *****/
+
+
+/* line 10, sass/partials/_desktop.scss */
+
+header .container {
+    position: relative;
+}
+
+
+/* line 15, sass/partials/_desktop.scss */
+
+.main-header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
+}
+
+
+/* line 24, sass/partials/_desktop.scss */
+
+.site-logo img {
+    width: 60px;
+}
+
+
+/* line 27, sass/partials/_desktop.scss */
+
+.site-logo span {
+    font-size: 178.57143%;
+    width: 75px;
+    display: inline-block;
+    color: #fff;
+}
+
+
+/* line 36, sass/partials/_desktop.scss */
+
+.header-menu a {
+    color: #fff;
+    font-size: 114.28571%;
+}
+
+
+/* line 42, sass/partials/_desktop.scss */
+
+.header-links {
+    margin-right: 80px;
+}
+
+
+/* line 45, sass/partials/_desktop.scss */
+
+.header-links a:last-child {
+    border: 1px solid;
+    border-radius: 50px;
+    padding: 5px 20px;
+}
+
+
+/* line 49, sass/partials/_desktop.scss */
+
+.header-links a:last-child:hover {
+    background-color: #fff;
+    color: #000;
+    border-color: #fff;
+}
+
+
+/* line 58, sass/partials/_desktop.scss */
+
+.hp-first-section {
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 85px;
+    position: relative;
+}
+
+
+/* line 64, sass/partials/_desktop.scss */
+
+.hp-first-section .main-title {
+    font-size: 571.42857%;
+    margin-top: 100px;
+    font-weight: 600;
+    overflow: hidden;
+}
+
+
+/* line 72, sass/partials/_desktop.scss */
+
+.explore-link {
+    position: absolute;
+    bottom: 12px;
+    left: 45.5%;
+    text-align: center;
+    color: #fff;
+    transition: all ease .2;
+}
+
+
+/* line 84, sass/partials/_desktop.scss */
+
+.explore-link i,
+.explore-link span {
+    transition: transform 250ms;
+}
+
+
+/* line 87, sass/partials/_desktop.scss */
+
+.explore-link span {
+    margin-top: 15px;
+}
+
+
+/* line 90, sass/partials/_desktop.scss */
+
+.explore-link:hover {
+    color: #fff;
+}
+
+
+/* line 92, sass/partials/_desktop.scss */
+
+.explore-link:hover i {
+    transform: translateY(-10px);
+}
+
+
+/* line 95, sass/partials/_desktop.scss */
+
+.explore-link:hover span {
+    transform: translateY(8px);
+}
+
+
+/* line 101, sass/partials/_desktop.scss */
+
+.hp-second-section {
+    background-color: #0000DC;
+    overflow-x: hidden;
+    background-image: url("/assets/img/half-logo-bg.png");
+    background-repeat: no-repeat;
+    background-position: top left;
+    background-size: 115px;
+}
+
+
+/* line 110, sass/partials/_desktop.scss */
+
+.moving-title {
+    position: relative;
+}
+
+
+/* line 112, sass/partials/_desktop.scss */
+
+.moving-title h3 {
+    font-size: 857.14286%;
+    font-weight: 600;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #fff;
+}
+
+
+/* line 122, sass/partials/_desktop.scss */
+
+.video-section {
+    position: relative;
+}
+
+
+/* line 126, sass/partials/_desktop.scss */
+
+.video-desc {
+    margin: 0 50px;
+    padding-top: 122px;
+}
+
+
+/* line 129, sass/partials/_desktop.scss */
+
+.video-desc h2 {
+    font-size: 571.42857%;
+    font-weight: 600;
+    position: absolute;
+    left: 50px;
+    top: 50px;
+}
+
+
+/* line 136, sass/partials/_desktop.scss */
+
+.video-desc p {
+    margin-top: 55px;
+    line-height: 24px;
+}
+
+
+/* line 140, sass/partials/_desktop.scss */
+
+.video-desc a {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0000DC;
+}
+
+
+/* line 146, sass/partials/_desktop.scss */
+
+.video-desc a i {
+    font-size: 0%;
+    transition: 100ms ease-in-out all;
+}
+
+
+/* line 151, sass/partials/_desktop.scss */
+
+.video-desc a:hover i {
+    font-size: 85.71429%;
+}
+
+
+/* line 158, sass/partials/_desktop.scss */
+
+.hp-third-section {
+    background-color: #0000DC;
+    background-image: url("/assets/img/half-logo-bg.png"), url("/assets/img/half-right-bg.png"), url("/assets/img/small-bottom.png");
+    background-repeat: no-repeat, no-repeat, no-repeat;
+    background-position: top left, center right, bottom left;
+    background-size: 115px;
+}
+
+
+/* line 167, sass/partials/_desktop.scss */
+
+.gates-type-con .gate-title {
+    position: relative;
+    height: 60px;
+}
+
+
+/* line 170, sass/partials/_desktop.scss */
+
+.gates-type-con .gate-title h2,
+.gates-type-con .gate-title h3 {
+    font-size: 428.57143%;
+    font-weight: 600;
+}
+
+
+/* line 174, sass/partials/_desktop.scss */
+
+.gates-type-con .gate-title h2 {
+    margin-left: 110px;
+}
+
+
+/* line 177, sass/partials/_desktop.scss */
+
+.gates-type-con .gate-title .extra-title-margin {
+    position: absolute;
+    left: 270px;
+    top: 0;
+}
+
+
+/* line 185, sass/partials/_desktop.scss */
+
+.gates-type-con .gate-desc p {
+    line-height: 24px;
+}
+
+
+/* line 191, sass/partials/_desktop.scss */
+
+.gate-img {
+    transform: perspective(400px) rotateY(-45deg) scale(0.9);
+    transition: 500ms ease-in-out all;
+    position: relative;
+    right: -100px;
+    opacity: 0;
+}
+
+
+/* line 197, sass/partials/_desktop.scss */
+
+.gate-img img {
+    width: 350px;
+}
+
+
+/* line 202, sass/partials/_desktop.scss */
+
+.animate-this {
+    transform: perspective(0px) rotateY(0deg) scale(1);
+    right: 0;
+    opacity: 1;
+}
+
+
+/* line 208, sass/partials/_desktop.scss */
+
+.sticky {
+    position: fixed;
+    top: 100px;
+}
+
+
+/* line 213, sass/partials/_desktop.scss */
+
+.hp-fourth-section {
+    background-color: #0000DC;
+    background-image: url("/assets/img/half-logo-bg.png");
+    background-position: center left;
+    background-repeat: no-repeat;
+    background-size: 150px;
+}
+
+
+/* line 221, sass/partials/_desktop.scss */
+
+.team-slider {
+    position: relative;
+}
+
+
+/* line 223, sass/partials/_desktop.scss */
+
+.team-slider .flexslider {
+    background-color: transparent;
+    border: 0;
+}
+
+
+/* line 228, sass/partials/_desktop.scss */
+
+.team-slider #slider {
+    width: 25%;
+    position: absolute;
+    top: 40px;
+    left: 140px;
+    z-index: 99;
+    pointer-events: none;
+}
+
+
+/* line 235, sass/partials/_desktop.scss */
+
+.team-slider #slider h3 {
+    font-size: 500%;
+    font-weight: 600;
+    line-height: 90px;
+}
+
+
+/* line 240, sass/partials/_desktop.scss */
+
+.team-slider #slider h4 {
+    font-size: 178.57143%;
+}
+
+
+/* line 245, sass/partials/_desktop.scss */
+
+.team-slider #carousel {
+    width: 85%;
+}
+
+
+/* line 248, sass/partials/_desktop.scss */
+
+.team-slider #carousel .slides li {
+    transform: perspective(400px) rotateY(-13deg) scale(0.9);
+    transition: 300ms ease-in-out all;
+}
+
+
+/* line 251, sass/partials/_desktop.scss */
+
+.team-slider #carousel .slides li img {
+    cursor: pointer;
+}
+
+
+/* line 254, sass/partials/_desktop.scss */
+
+.team-slider #carousel .slides li.flex-active-slide {
+    transform: perspective(0px) rotateY(0deg) scale(1);
+}
+
+
+/* line 261, sass/partials/_desktop.scss */
+
+.team-slider .flex-direction-nav {
+    display: none;
+}
+
+
+/* line 265, sass/partials/_desktop.scss */
+
+.team-slider .primary-btn {
+    position: absolute;
+    bottom: 75px;
+    left: 130px;
+}
+
+
+/* line 272, sass/partials/_desktop.scss */
+
+.member-social-accounts {
+    pointer-events: visible;
+}
+
+
+/* line 274, sass/partials/_desktop.scss */
+
+.member-social-accounts a {
+    font-size: 142.85714%;
+    color: #fff;
+}
+
+
+/* line 280, sass/partials/_desktop.scss */
+
+.our-team {
+    margin-top: -35px;
+}
+
+
+/* line 285, sass/partials/_desktop.scss */
+
+.primary-btn a {
+    padding: 10px 20px;
+    border: 1px solid #fff;
+    border-radius: 50px;
+    background-color: #fff;
+    color: #0000DC;
+}
+
+
+/* line 292, sass/partials/_desktop.scss */
+
+.primary-btn i {
+    font-size: 0%;
+    transition: 100ms ease-in-out all;
+}
+
+
+/* line 297, sass/partials/_desktop.scss */
+
+.primary-btn:hover i {
+    font-size: 85.71429%;
+}
+
+
+/*** Footer ***/
+
+
+/* line 304, sass/partials/_desktop.scss */
+
+footer {
+    background-color: #0000DC;
+}
+
+
+/* line 308, sass/partials/_desktop.scss */
+
+.main-footer {
+    border-top: 1px solid #fff;
+}
+
+
+/* line 310, sass/partials/_desktop.scss */
+
+.main-footer a {
+    color: #fff;
+    font-weight: 600;
+}
+
+
+/* line 317, sass/partials/_desktop.scss */
+
+.footer-logo img {
+    width: 55px;
+}
+
+
+/**** Inners ****/
+
+
+/* line 324, sass/partials/_desktop.scss */
+
+.main-inner .main-title {
+    font-size: 357.14286%;
+    font-weight: 600;
+}
