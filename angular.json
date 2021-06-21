@@ -38,9 +38,10 @@
                         ],
                         "scripts": [
                             "node_modules/jquery/dist/jquery.min.js",
-                            "node_modules/jquery-ui/jquery-ui.js",
+                            "node_modules/jquery-ui-dist/jquery-ui.js",
                             "node_modules/bootstrap/dist/js/bootstrap.bundle.js",
-                            "assets/js/jquery.flexslider-min.js"
+                            "src/assets/js/jquery.flexslider-min.js",
+                            "src/assets/js/css3-animate-it.js"
                         ]
                     },
                     "configurations": {
