@@ -1,262 +1,196 @@
 a {
-  text-decoration: none;
-  &:hover {
-      text-decoration: none;
-  }
+    text-decoration: none;
+    &:hover {
+        text-decoration: none;
+    }
 }
 
-body{
-  overflow-x: hidden;
+body {
+    overflow-x: hidden;
 }
+
 
 /***** Site Header *****/
 
 header {
-  .container {
-      position: relative;
-  }
+    .container {
+        position: relative;
+    }
 }
 
 .main-header {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  z-index: 99;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 99;
 }
 
 .site-logo {
-a{
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-  img {
-      width: 60px;
-  }
-  span {
-      @include fz(25px);
-      width: 75px;
-      display: inline-block;
-      color: $primary-color;
-  }
+    a {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    img {
+        width: 60px;
+    }
+    span {
+        @include fz(25px);
+        width: 75px;
+        display: inline-block;
+        color: $primary-color;
+    }
 }
 
 .header-menu {
-  a {
-      color: $primary-color;
-      @include fz(16px);
-  }
+    a {
+        color: $primary-color;
+        @include fz(16px);
+    }
 }
 
 .header-links {
-  margin-right: 80px;
-  a {
-      &:last-child {
-          border: 1px solid;
-          border-radius: 50px;
-          padding: 5px 20px;
-          &:hover {
-              background-color: $primary-color;
-              color: #000;
-              border-color: $primary-color;
-          }
-      }
-  }
+    margin-right: 80px;
+    a {
+        &:last-child {
+            border: 1px solid;
+            border-radius: 50px;
+            padding: 5px 20px;
+            &:hover {
+                background-color: $primary-color;
+                color: #000;
+                border-color: $primary-color;
+            }
+        }
+    }
 }
 
 .primary-btn {
-  a {
-      padding: 10px 20px;
-      border: 1px solid $primary-color;
-      border-radius: 50px;
-      background-color: $primary-color;
-      color: $secondary-color;
-  }
-  i {
-      line-height: 5px;
-      @include fz(0px);
-      transition: 100ms ease-in-out all;
-  }
-  &:hover {
-      i {
-          @include fz(12px);
-      }
-  }
+    a {
+        padding: 10px 20px;
+        border: 1px solid $primary-color;
+        border-radius: 50px;
+        background-color: $primary-color;
+        color: $secondary-color;
+    }
+    i {
+        line-height: 5px;
+        @include fz(0px);
+        transition: 100ms ease-in-out all;
+    }
+    &:hover {
+        i {
+            @include fz(12px);
+        }
+    }
 }
+
 
 /*** Footer ***/
 
 footer {
-  background-color: $secondary-color;
-  .footer-cont{
-    .footer-wrapper{
-      .logo-section{
-
-      }
+    background-color: $secondary-color;
+    .footer-cont {
+        .footer-wrapper {
+            .logo-section {}
+        }
     }
-  }
 }
 
 .main-footer {
-  border-top: 1px solid $primary-color;
-  p{
-    margin-bottom: 0;
-  }
-  a {
-      color: $primary-color;
-      font-weight: 600;
-  }
+    border-top: 1px solid $primary-color;
+    p {
+        margin-bottom: 0;
+    }
+    a {
+        color: $primary-color;
+        font-weight: 600;
+    }
 }
 
 .footer-logo {
-  img {
-      width: 55px;
-  }
+    img {
+        width: 55px;
+    }
 }
 
 
 /**** Inners ****/
 
 .main-inner {
-  .main-title {
-      h1{
-        @include fz(50px);
-        font-weight: 600;
-      }
-  }
+    .main-title {
+        h1 {
+            @include fz(50px);
+            font-weight: 600;
+        }
+    }
 }
 
-
-
 @media(max-width:992px) {
-
-
-  a {
-
-    &:hover {
-
-    }
-  }
-
-  body{
-
-  }
-
-  /***** Site Header *****/
-
-  header {
-    .container {
-
-    }
-  }
-
-  .main-header {
-    padding: 15px 15px;
-    .header-menu{
-      display: none!important;
-    }
-
-  }
-
-  .site-logo {
-  a{
-
-  }
-    img {
-
-    }
-    span {
-
-    }
-  }
-
-  .header-menu {
     a {
-
+        &:hover {}
     }
-  }
-
-  .header-links {
-
-    a {
-        &:last-child {
-
-            &:hover {
-
+    body {}
+    /***** Site Header *****/
+    header {
+        .container {}
+    }
+    .main-header {
+        padding: 15px 15px;
+    }
+    .site-logo {
+        a {}
+        img {}
+        span {}
+    }
+    .header-menu {
+        a {}
+    }
+    .header-links {
+        a {
+            &:last-child {
+                &:hover {}
             }
         }
     }
-  }
-
-  .primary-btn {
-    a {
-
-    }
-    i {
-
-    }
-    &:hover {
-        i {
-
+    .primary-btn {
+        a {}
+        i {}
+        &:hover {
+            i {}
         }
     }
-  }
-
-  /*** Footer ***/
-
-  footer {
-    .footer-cont{
-      padding: 0;
-
-      .footer-wrapper{
-        flex-direction: column;
-        padding: 0 30px;
-        .logo-section{
-          justify-content: center;
-          margin-bottom: 20px;
-          .policy-section{
-            flex-direction: column;
-            display: flex;
-            line-height: 20px;
-          }
-
-        }
-      }
-    }
-
-  }
-
-  .main-footer {
-
-    p{
-
-    }
-    a {
-
-    }
-  }
-
-  .footer-logo {
-    img {
-
-    }
-  }
-
-
-  /**** Inners ****/
-
-  .main-inner {
-    .main-title {
-        h1{
-
-
+    /*** Footer ***/
+    footer {
+        .footer-cont {
+            padding: 0;
+            .footer-wrapper {
+                flex-direction: column;
+                padding: 0 30px;
+                .logo-section {
+                    justify-content: center;
+                    margin-bottom: 20px;
+                    .policy-section {
+                        flex-direction: column;
+                        display: flex;
+                        line-height: 20px;
+                    }
+                }
+            }
         }
     }
-  }
-
-
+    .main-footer {
+        p {}
+        a {}
+    }
+    .footer-logo {
+        img {}
+    }
+    /**** Inners ****/
+    .main-inner {
+        .main-title {
+            h1 {}
+        }
+    }
 }
-
-
-
