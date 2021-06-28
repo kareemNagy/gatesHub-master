@@ -270,3 +270,16 @@ ul {
         }
     }
 }
+
+.main-menu {
+    cursor: pointer;
+}
+
+.close-menu {
+    position: relative;
+    z-index: 125;
+    cursor: pointer;
+    .fa-close {
+        font-size: 25px;
+    }
+}

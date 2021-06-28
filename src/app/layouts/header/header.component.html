@@ -1,6 +1,6 @@
 <header>
     <div class="container">
-        <div class="d-flex align-items-center justify-content-between main-header pt-4">
+        <div class="d-flex align-items-center justify-content-between main-header pt-4" [style.z-index]="visbility ? 'auto':''">
             <div class="site-logo">
                 <a href="#">
                     <img src="assets/img/logo.png" alt="">
@@ -14,8 +14,8 @@
                     <a href="#" class="mr-4">Contact Us</a>
                     <a href="#" class="mr-4">Ambassador System</a>
                 </div>
-                <a class="main-menu" (click)="visbility = !visbility">
-                    <i class="ico icon-menu-bars"></i>
+                <a class="main-menu {{visbility? 'close-menu':''}}" (click)="openMenu()">
+                    <i class="{{visbility?'fa fa-close':'ico icon-menu-bars'}}"></i>
 
                 </a>
             </div>
